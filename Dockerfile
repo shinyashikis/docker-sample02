@@ -24,3 +24,4 @@ discovery.type: single-node\n\
 #コンテナ起動時にElasticsearchをフォアグラウンドで起動
 CMD ["/usr/share/elasticsearch/elasticsearch-7.0.1/bin/elasticsearch"]
 
+EXPOSE 9200
